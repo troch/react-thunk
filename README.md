@@ -4,7 +4,7 @@
 
 ## Install
 
-```
+```sh
 npm i --save react-thunk
 ```
 
