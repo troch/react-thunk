@@ -37,4 +37,22 @@ function NameField(initialProps) {
 
 ## How?
 
-It creates a class for you.
+It creates a class for you: https://github.com/troch/react-thunk/blob/master/modules/index.js. That is all the source code.
+
+
+## API
+
+__thunk(component: Function[, pure: Boolean])__
+
+Since a `thunk` creates a class, it gives you the opportunity to have pure components (set second argument to true).
+
+```js
+import React from 'react';
+import thunk from 'react-thunk';
+
+function NameField() {
+    /* ... */
+}
+
+export default thunk(NameField);
+```
